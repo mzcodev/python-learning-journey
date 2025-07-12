@@ -36,5 +36,3 @@ The goal of this project is to practice fundamental programming concepts in Pyth
 This project reflects my progress in learning the basics of Python programming as part of an introductory course.
 
 ---
-
-Feel free to reach out if you have any questions or suggestions!
