@@ -44,7 +44,6 @@ This project uses the following Python concepts:
 -----------
  7 | 8 | 9
 
-
 ## Note
 
 No additional packages are required. The game is built entirely using core Python libraries and logic.
