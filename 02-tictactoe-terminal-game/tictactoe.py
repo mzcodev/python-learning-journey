@@ -7,19 +7,19 @@ def before_start():
     global is_bot
     print('\nWelcome to the TicTacToe game!\n')
     while True:
-        st = input('To play the game with the Bot, enter number 1.\nTo play with your friend, enter number 2.\nIf you want to know about the game instructions enter help: ')
+        first_input = input('To play the game with the Bot, enter number 1.\nTo play with your friend, enter number 2.\nIf you want to know about the game instructions enter help: ')
         output_cleaner()
-        if st.lower() == '2':
+        if first_input.lower() == '2':
             output_cleaner()
             is_bot = False
             print('Game started!\n')
             break
-        elif st.lower() == '1':
+        elif first_input.lower() == '1':
             output_cleaner()
             print('Game started!\n')
             is_bot = True
             break
-        elif st.lower() == 'help':
+        elif first_input.lower() == 'help':
             output_cleaner()
             print('When the game starts, you should enter one of these numbers to mark that block with your sign.\n')
             print('1','|','2','|','3')
