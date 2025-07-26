@@ -36,14 +36,6 @@ This project uses the following Python concepts:
 3. Select your sign (X or O)  
 4. Enter a number (1–9) to place your mark in the corresponding block  
 
-### Board Layout
-
- 1 | 2 | 3
------------
- 4 | 5 | 6
------------
- 7 | 8 | 9
-
 ## Note
 
 No additional packages are required. The game is built entirely using core Python libraries and logic.
